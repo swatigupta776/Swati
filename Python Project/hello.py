@@ -96,8 +96,33 @@ print(id(lista))
 
 mylist = [1,2,3]
 mylist=['one','three']
-print(len(mylist))
+new_list = lista + mylist
+print(new_list)
 
+mylist[0]= 0
+print(mylist)
 
+mylist.append('two')
+print(mylist)
+print(mylist.pop())
+print(mylist)
 
+print(mylist.pop())
+print(mylist)
 
+sortlist = [9,3,5,1,6,0]
+sortlist.sort()
+print(sortlist)
+print(type(sortlist))
+res = sortlist.reverse()
+print(res)
+
+my_dict ={'language1':'java','language2':'C'}
+print(my_dict)
+print(my_dict['language1'])
+
+versions ={'java':'3.2','C':'4.4'}
+print(versions['java'])
+
+d ={'k1':'123','k2':'[1,2,3]','k3':{'insidekey':'100'}}
+print(d['k2']['0'])
