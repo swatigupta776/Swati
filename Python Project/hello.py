@@ -124,5 +124,21 @@ print(my_dict['language1'])
 versions ={'java':'3.2','C':'4.4'}
 print(versions['java'])
 
-d ={'k1':'123','k2':'[1,2,3]','k3':{'insidekey':'100'}}
-print(d['k2']['0'])
+d ={'k1':'123','k2':[1,2,3],'k3':{'insidekey':'100'}}
+print(d['k2'][1])
+
+d = {'k1':['a','b','c']}
+nlist = d['k1']
+print(nlist)
+letter = nlist[1].upper()
+#up =letter.upper()
+#print(up)
+print(letter)
+d = {'k1':'100','k2':'200'}
+d['k3'] = 300
+print(d)
+d['k1']= 'NEW VALUE'
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python Project.iml" filepath="$PROJECT_DIR$/.idea/Python Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../instasafe/.idea/instasafe.iml" filepath="$PROJECT_DIR$/../instasafe/.idea/instasafe.iml" />
     </modules>
   </component>
 </project>
