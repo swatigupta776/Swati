@@ -142,3 +142,43 @@ print(d)
 print(d.keys())
 print(d.values())
 print(d.items())
+
+#t = ('one',3)
+#t[1]
+#print(t[1])
+
+l = [1,2,3]
+print(l[-1])
+type(l)
+print(type(l))
+l[0] ='new'
+print(l)
+
+t=('a','a','b')
+
+print(t.count('a'))
+
+print(t.index('a'))
+myset = set()
+myset.add(5)
+myset.add(2)
+print(myset)
+melist = [1,1,1,7,7,6,6]
+print(set(melist))
+
+
+people = set('Jay')
+people.add('Daxit')
+people.add('mit')
+print(people)
+
+qw = 1
+qe =2
+ad = qw>qe
+print(ad)
+
+b= none
+print(b)
+
+f = open('F:/file.txt')
+f.write('Python')
