@@ -176,8 +176,12 @@ qe = 2
 ad = qw > qe
 print(ad)
 
-b = none
-print(b)
+#b = none
+#print(b)
 
-f = open('F://file.txt')
-f.write('Python')
+nw = open("testfile.txt","w")
+nw.write("HY\n")
+nw.write("hello\n")
+nw.close()
+
+
